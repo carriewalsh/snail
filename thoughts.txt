@@ -1,0 +1,23 @@
+Given an n x n array, write a function that returns the array elements arranged from outermost elements to the middle element, traveling clockwise
+
+const arrayMatrix = [
+  [1, 2, 3],
+  [4, 5, 6],
+  [7, 8, 9]
+];
+
+snail(arrayMatrix) #=> [1, 2, 3, 6, 9, 8, 7, 4, 5]
+
+starting top left
+ - entire first array
+ - last elements (top to bottom)
+ - entire bottom array
+ - first elements (bottom to top)
+
+
+start with empty array to shovel in numbers
+ pop = delete and return last?
+ shift = delete and return first?
+
+count length of big array
+count length of 1st array
