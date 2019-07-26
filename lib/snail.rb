@@ -4,8 +4,6 @@ class Snail
   def initialize(name,matrix)
     @name = name
     @matrix = matrix
-    @row_length = matrix[0].length
-    @column_length = matrix.length
     @array = []
   end
 
